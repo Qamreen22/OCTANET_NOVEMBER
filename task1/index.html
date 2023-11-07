@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Nook!</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=IBM+Plex+Serif:wght@600&family=Island+Moments&family=Nanum+Myeongjo&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-image: url("./landingpagebackground.png");
+        
+      }
+      .smallfont{
+        font-size: small
+      }
+      .yellowtrans{
+        background-color: rgba(244, 175, 84, 0.68);
+      }
+      .yellowgold{
+        color: rgb(244, 175, 84);
+      }
+      .yellowgoldbutton{
+        background-color: rgb(244, 175, 84);
+        color: white;
+      }
+      .yellowgoldbutton:hover{
+        background-color: rgb(174, 120, 49);
+        color: white;
+      }
+      .yellowgoldbuttonoutline{
+        background-color: transparent;
+        color: rgb(244, 175, 84);
+        border: 1px solid rgb(244, 175, 84);
+      }
+      .yellowgoldbuttonoutline:hover{
+        background-color: rgb(244, 175, 84);
+        color: white;
+      }
+      .row-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        .island {
+        font-family: 'Island Moments', cursive;
+        font-size: xx-large;
+        word-wrap: break-word;
+        color: white;
+        margin: 0 10px; /* Adjust margin as needed */
+        }
+
+        .line {
+        flex: 1;
+        border-top: 0.5px solid white;
+        }
+        .b2y{
+          background-color: rgb(244, 175, 84);
+          color: white;
+        }
+        .b2y:hover{
+          color: white;
+        }
+    </style>
+  </head>
+<body>  
+    <div>
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+              <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                  <h5 class="text-capitalize yellowgold">BOOK NOOK!</h5>
+                </a>
+              </div>
+        
+              <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-light">Home</a></li>
+                <li><a href="#" class="nav-link px-2 link-light dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Books</a>
+                    <ul class="dropdown-menu dropdown-menu-sm-start smallfont b2y" >
+                        <li><a class="dropdown-item" href="#">Fiction</a></li>
+                        <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
+                        <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                        <li><a class="dropdown-item" href="#">Romance</a></li>
+                        <li><a class="dropdown-item" href="#">Thriller</a></li>
+                        <li><a class="dropdown-item" href="#">Mystery</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">All</a></li>
+                      </ul>
+                </li>
+                <li><a href="#" class="nav-link px-2 link-light">Events</a></li>
+                <li><a href="#" class="nav-link px-2 link-light">Contact</a></li>
+                
+              </ul>
+        
+              <div class="col-md-3 text-end">
+                <button type="button" class="btn yellowgoldbuttonoutline me-2 btn-sm"><span class="smallfont">Login</span></button>
+                <button type="button" class="btn yellowgoldbutton btn-sm"><span class="smallfont">Sign-up</span></button>
+              </div>
+            </header>
+          </div>
+        <div>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="play-book.gif" class="d-block mx-lg-auto img-fluid rounded-circle" alt="gif" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                    <h1 class="display-5 text-white fw-bold  lh-1 mb-3">Journey into a <span class="yellowgold">World</span> of Imagination and Knowledge</h1>
+                    <p class="text-light">Explore captivating stories and endless adventures at Book Nook. Whether you're an avid reader or just beginning your journey, we have something to captivate every reader. Welcome to your literary haven!</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn yellowgoldbutton btn-lg px-4 me-md-2">Explore</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="yellowtrans">
+      <hr class="bg-white">
+    <div class="row-container">
+        <div class="line"></div>
+        <h4 class="text-center island text-lg-center text-white">Our Top Picks</h4>
+        <div class="line"></div>
+    </div>
+      <br>
+    <div class="container">
+      <div class="row justify-content-evenly">
+          <div class="col-md-2">
+              <div class="card text-center">
+                  <img src="./leaf.png" class="card-img-top" alt="Image 1">
+              </div>
+          </div>
+
+          <div class="col-md-2">
+              <div class="card text-center">
+                  <img src="./bittersweet.png" class="card-img-top" alt="Image 2">
+              </div>
+          </div>
+
+          <div class="col-md-2">
+              <div class="card text-center">
+                  <img src="./Untitledbook303.png" class="card-img-top" alt="Image 3">
+              </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card text-center">
+                <img src="./angel303.png" class="card-img-top" alt="Image 3">
+            </div>
+        </div>
+      </div>
+      <br>
+  </div>
+  </div>
+   <!-- Include Bootstrap JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
