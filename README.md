@@ -18,7 +18,7 @@ For Task 1, I developed a Landing Page. The objective was to create a visually a
 Task 2 involved building a To-Do List application. The goal was to create a functional and user-friendly web application for managing tasks and to-dos.
 
 ### Screenshots
-![Task 2 ScreenShot]([./task2/todolistScreenshot.jpeg)
+![Task 2 ScreenShot](./task2/todolistScreenshot.jpeg)
 
 ## Technologies Used
 
