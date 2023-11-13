@@ -21,6 +21,14 @@ Task 2 involved building a To-Do List application. The goal was to create a func
 ![Task 2 ScreenShot](./task2/todolistScreenshot.jpeg)
 
 ## Technologies Used
-
+- Task 1:
+  - HTML
+  - CSS
+  - Bootstrap
+  - Figma (for design)
+- Task 2:
+  - HTML
+  - CSS
+  - JavaScript
 
  
