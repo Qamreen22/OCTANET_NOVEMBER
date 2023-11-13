@@ -7,7 +7,7 @@ Welcome to the repository for my web development internship tasks at OctaNet. In
 ## Task 1: Landing Page
 
 ### Task Description
-For Task 1, I developed a Landing Page. The objective was to create a visually appealing and informative landing page for a specific purpose or product.
+For Task 1, I developed a **Landing Page**. The objective was to create a visually appealing and informative landing page for a specific purpose or product.
 
 ### Screenshots
 ![Task 1 ScreenShot](./task1/Landing%20page%20screenshot.jpeg)
@@ -15,20 +15,18 @@ For Task 1, I developed a Landing Page. The objective was to create a visually a
 ## Task 2: To-Do List
 
 ### Task Description
-Task 2 involved building a To-Do List application. The goal was to create a functional and user-friendly web application for managing tasks and to-dos.
+Task 2 involved building a **To-Do List** application. The goal was to create a functional and user-friendly web application for managing tasks and to-dos.
 
 ### Screenshots
 ![Task 2 ScreenShot](./task2/todolistScreenshot.jpeg)
 
 ## Technologies Used
-- Task 1:
+- **Task 1:**
   - HTML
   - CSS
   - Bootstrap
   - Figma (for design)
-- Task 2:
+- **Task 2:**
   - HTML
   - CSS
   - JavaScript
-
- 
