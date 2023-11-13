@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=IBM+Plex+Serif:wght@600&family=Island+Moments&family=Nanum+Myeongjo&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="heading">
+            <h1>ToDo List</h1>
+            <img class="img-gif" src="./Animation - 1699877711308.gif" alt="icon" class="theme-icon">
+        </div>
+        <div class="task-input">
+          <input type="text" placeholder="Add a new task">
+          <button class="add">Add</button>
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <span class="active" id="all">All</span>
+            <span id="pending">Pending</span>
+            <span id="completed">Completed</span>
+          </div>
+          <button class="clear-btn">Clear All</button>
+        </div>
+        <ul class="task-box"></ul>
+      </div>
+      <script src="./index.js"></script>
+</body>
+</html>
